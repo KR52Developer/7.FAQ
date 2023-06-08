@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bodycontent {
+    min-width: 50%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: palegoldenrod;
+}
+
+/* .container {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+} */
+
+
+.question {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 10px;
+    background: palegreen;
+}
+
+.heading {
+    text-align: center;
+    padding: 25px;
+}
+
+.questionTitle {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.questionTitlePara {
+    padding-right: 25px;
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+.questionAnswer {
+    border-top: 2px solid palegoldenrod;
+    padding: 25px;
+}
+
+
+/* To show/hide the answers for faq questions */
+
+.questionParaContainer {
+    display: none;
+}
+
+
+.showText .questionParaContainer {
+    display: block;
+}
+
+.upArrow {
+    display: none;
+}
+
+.showupArrow {
+    display: block;
+}
+
+.hidedownArrow {
+    display: none;
+}
